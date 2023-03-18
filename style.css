@@ -1,0 +1,45 @@
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    background-color: rgb(245, 245, 240);
+}
+
+header{
+    text-align: center;
+    line-height: 40px;
+}
+
+/* main{
+    width: 97vw;
+} */
+
+section h4{
+    text-align: left;
+    padding: 10px 20px;
+}
+
+.nysc{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+table{
+    width: 95svw;
+}
+
+table, th, td{
+    padding: 10px;
+    line-height: 9px;
+}
+
+.list{
+    line-height: 20px;
+}
