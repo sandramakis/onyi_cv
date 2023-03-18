@@ -16,9 +16,10 @@ header{
     line-height: 40px;
 }
 
-/* main{
-    width: 97vw;
-} */
+header h2{
+    /* word-spacing: 10px; */
+    letter-spacing: 15px;
+}
 
 section h4{
     text-align: left;
