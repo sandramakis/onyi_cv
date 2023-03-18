@@ -17,11 +17,14 @@ header{
 }
 
 header h2{
-    /* word-spacing: 10px; */
     letter-spacing: 15px;
 }
 
-section h4{
+section{
+    padding: 10px 0;
+}
+
+section h4, .skills h4{
     text-align: left;
     padding: 10px 20px;
 }
@@ -33,7 +36,7 @@ section h4{
 }
 
 table{
-    width: 95svw;
+    width: 95vw;
 }
 
 table, th, td{
@@ -43,4 +46,17 @@ table, th, td{
 
 .list{
     line-height: 20px;
+}
+
+.skills{
+    padding: 5px 30px;
+    line-height: 20px;
+}
+
+.skills h4{
+    padding: 10px 0;
+}
+
+.hobbies{
+    padding: 10px 30px;
 }
