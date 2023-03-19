@@ -17,14 +17,14 @@ header{
 }
 
 header h2{
-    letter-spacing: 15px;
+    letter-spacing: 13px;
 }
 
 section{
     padding: 10px 0;
 }
 
-section h4, .skills h4{
+h4{
     text-align: left;
     padding: 10px 20px;
 }
@@ -45,18 +45,42 @@ table, th, td{
 }
 
 .list{
-    line-height: 20px;
+    line-height: 25px;
 }
 
-.skills{
+.skills,
+.reference,
+.hobbies, 
+.summary{
     padding: 5px 30px;
     line-height: 20px;
 }
 
-.skills h4{
-    padding: 10px 0;
+.reference{
+    margin-bottom: 60px;
 }
 
-.hobbies{
-    padding: 10px 30px;
+.experience{
+    width: 80%;
+}
+
+@media screen and (max-width: 767px) {
+   td{
+    line-height: 15px;
+   }
+}
+
+
+@media screen and (min-width: 768px) {
+    section.summary_experience{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex: 1 1 90vw;
+        width: 95vw;
+    }
+
+    .experience table{
+        width: 50vw;
+    }
 }
