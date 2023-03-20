@@ -64,6 +64,20 @@ table, th, td{
     width: 80%;
 }
 
+.personal-data{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex: 1 1 90vw;
+    width: 95vw;
+}
+
+img{
+    width: 60px;
+    height: 60px;
+}
+
+
 @media screen and (max-width: 767px) {
    td{
     line-height: 15px;
