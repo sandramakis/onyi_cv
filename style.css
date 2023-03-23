@@ -20,6 +20,10 @@ header h2{
     letter-spacing: 13px;
 }
 
+main{
+    padding: 20px;
+}
+
 section{
     padding: 10px 0;
 }
@@ -66,7 +70,7 @@ table, th, td{
 
 .personal-data{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: flex-start;
     flex: 1 1 90vw;
     width: 95vw;
@@ -75,7 +79,7 @@ table, th, td{
 img{
     width: 80px;
     height: 80px;
-    padding-right: 100px;
+    padding-right: 250px;
 }
 
 
@@ -97,5 +101,9 @@ img{
 
     .experience table{
         width: 50vw;
+    }
+
+    img{
+        margin-right: 100px;
     }
 }
